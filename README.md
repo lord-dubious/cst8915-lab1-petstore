@@ -7,7 +7,7 @@
 
 ## Demo Video
 
-The required Azure demonstration video has been recorded and verified locally. The unlisted YouTube link will be added here after upload.
+🎥 [Watch the Unlisted Demo Video](https://youtu.be/VQKoOkp3Vdg)
 
 ## Deployment Evidence
 
