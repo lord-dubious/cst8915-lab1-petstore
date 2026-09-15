@@ -1,0 +1,5 @@
+# Demo captures are added deliberately after review.
+*.pem
+*.key
+.env
+node_modules/
