@@ -1,13 +1,33 @@
 # CST8915 Lab 1: Algonquin Pet Store on Azure VM
 
-**Student Name:** [Add before publishing]
-**Student ID:** [Add before publishing]
+**Student Name:** [Confirm before publishing]
+**Student ID:** [Confirm before publishing]
 **Course:** CST8915 Full-stack Cloud-native Development
 **Semester:** Fall 2026
 
 ## Demo Video
 
-The required Azure demonstration video will be linked here after recording and uploading it as an unlisted video.
+The required Azure demonstration video has been recorded and verified locally. The unlisted YouTube link will be added here after upload.
+
+## Deployment Evidence
+
+### Azure VM
+
+![Running Azure VM](screenshots/azure-vm.png)
+
+The VM is running Ubuntu 24.04 on a Standard B2als v2 instance with 2 vCPUs and 4 GiB of memory. This matches the capacity of the README's Standard B2s example.
+
+### Network Security Group
+
+![Required inbound rules](screenshots/network-rules.png)
+
+The required TCP ports are open with the assigned priorities: 8080 for the Store Front, 3000 for the Order Service, and 3030 for the Product Service.
+
+### Public Store Front and Order Test
+
+![Public Store Front showing Dog Food quantity 2 and total price $39.98](screenshots/store-front.png)
+
+The Store Front loaded from the Azure VM's public IP. Selecting two Dog Food units produced the expected $39.98 total, and the submitted order was confirmed in the durable RabbitMQ queue.
 
 ## Technical Explanations
 

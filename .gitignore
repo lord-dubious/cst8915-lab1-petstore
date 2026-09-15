@@ -3,3 +3,10 @@
 *.key
 .env
 node_modules/
+*.mp4
+*.wav
+demo-slides/
+screenshots/azure-vm-overview.jpg
+screenshots/azure-network-rules.jpg
+screenshots/azure-network-rules-full.jpg
+screenshots/petstore-total.jpg
