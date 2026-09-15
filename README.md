@@ -7,7 +7,7 @@
 
 ## Demo Video
 
-🎥 [Watch the Unlisted Live Browser Screencast](https://youtu.be/dz84madt_ZE)
+🎥 [Watch the Unlisted Continuous CDP Browser Recording](https://youtu.be/447cmxTDQpM)
 
 ## Deployment Evidence
 
